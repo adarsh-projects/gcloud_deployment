@@ -1,7 +1,13 @@
 Flask
 gunicorn 
+requests
 numpy
 pandas
 scikit-learn
+scipy
+itsdangerous
+Jinja2
+Werkzeug
+MarkupSafe
 tensorflow
-json
+uwsgi
