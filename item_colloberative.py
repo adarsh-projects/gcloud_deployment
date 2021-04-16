@@ -8,8 +8,8 @@ from sklearn.model_selection import train_test_split
 class RecomdModel:
 	
 	def __init__(self):
-		self.ratingSource = 'https://raw.githubusercontent.com/adarsh-projects/GCP/main/appengine/docs/flexible/python/users_ratings.csv'
-		self.productSource = 'https://raw.githubusercontent.com/adarsh-projects/GCP/main/appengine/docs/flexible/python/product.csv'
+		self.ratingSource = 'https://raw.githubusercontent.com/adarsh-projects/gcloud_deployment/main/users_ratings.csv'
+		self.productSource = 'https://raw.githubusercontent.com/adarsh-projects/gcloud_deployment/main/product.csv'
 		
 		#reading rating file
 		self.rating_df = pd.read_csv(self.ratingSource)
