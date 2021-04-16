@@ -9,7 +9,7 @@ app = Flask("__name__")
 
 @app.errorhandler(404)
 def not_found(error):
-    return "<h2>404</h2><p>Not found</p>"
+    return "<h2>404</h2><p>Chal Bhag</p>"
 
 @app.route('/')
 def apitest():
