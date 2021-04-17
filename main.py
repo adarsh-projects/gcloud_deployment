@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify, render_template
-from item_colloberative import RecomdModel
+#from item_colloberative import RecomdModel
 import pandas as pd
 import json
 
-model = RecomdModel()
+#model = RecomdModel()
 
 app = Flask("__name__")
 
@@ -21,11 +21,11 @@ def predict():
 	
 	# user rating sex
 	#value = model.predictModel(int(query[0]), int(query[1]), int(query[2]))
-	value = model.predictModel(180, 3, 327)
+	#value = model.predictModel(180, 3, 327)
 	
-	value = {"brand": [x for x in value[0]]}
-	return value #{"item": "hey Adarsh"}
-	#return {"item": "Hey, Adarsh"}
+	#value = {"brand": [x for x in value[0]]}
+	#return value #{"item": "hey Adarsh"}
+	return {"item": "Hey, Adarsh"}
 
 if __name__ == '__main__':
 	app.run()
