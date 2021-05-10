@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-from item_colloberative import RecomdModel
+from https://github.com/adarsh-projects/gcloud_deployment/blob/main/item_colloberative.py import RecomdModel
 import pandas as pd
 import json
 
