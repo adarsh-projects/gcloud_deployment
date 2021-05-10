@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify, render_template
-#from item_colloberative import RecomdModel
+from item_colloberative import RecomdModel
 import pandas as pd
 import json
 
-#model = RecomdModel()
+model = RecomdModel()
 
 app = Flask("__name__")
 
