@@ -21,11 +21,11 @@ def predict():
 	
 	# user rating sex
 	#value = model.predictModel(int(query[0]), int(query[1]), int(query[2]))
-	#value = model.predictModel(180, 3, 327)
+	value = model.predictModel(180, 3, 327)
 	
-	#value = {"brand": [x for x in value[0]]}
-	#return value #{"item": "hey Adarsh"}
-	return {"item": "Hey, Adarsh"}
+	value = {"brand": [x for x in value[0]]}
+	return value #{"item": "hey Adarsh"}
+	#return {"item": "Hey, Adarsh"}
 
 if __name__ == '__main__':
 	app.run()
