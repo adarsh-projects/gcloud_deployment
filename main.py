@@ -9,7 +9,7 @@ from tensorflow import keras
 
 app = Flask("__name__")
 
-model = keras.models.load_model("//home//adarsh//Desktop//Flask//abcd//")
+model = keras.models.load_model("gs://gcpmodel/keras-job-dir/keras_export/assets")
 model.summary()
 
 @app.errorhandler(404)
