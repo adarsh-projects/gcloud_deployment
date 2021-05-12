@@ -5,10 +5,8 @@ from tensorflow import keras
 from tensorflow import lite
 from sklearn.model_selection import train_test_split
 
-#'https://raw.githubusercontent.com/adarsh-projects/gcloud_deployment/main/users_ratings.csv'
-#'https://raw.githubusercontent.com/adarsh-projects/gcloud_deployment/main/product.csv'
-ratingSource = '//home//adarsh//Desktop//Flask//users_ratings.csv'
-productSource = '//home//adarsh//Desktop//Flask//product.csv'
+ratingSource = 'https://raw.githubusercontent.com/adarsh-projects/gcloud_deployment/main/users_ratings.csv'
+productSource = 'https://raw.githubusercontent.com/adarsh-projects/gcloud_deployment/main/product.csv'
 
 #reading rating file
 rating_df = pd.read_csv(ratingSource)
